@@ -15,4 +15,4 @@ It is a website to know everything about hacking. It includes:
 Responsive Web Design
 
 # Software Used
-HTML, CSS
+HTML, CSS, JavaScript
