@@ -10,3 +10,9 @@ It is a website to know everything about hacking. It includes:
 - Scope and career oppurtunities
 - Information about Capture The Flag (CTF)
 - Important Dates
+
+# Domain
+Responsive Web Design
+
+# Software Used
+HTML, CSS
