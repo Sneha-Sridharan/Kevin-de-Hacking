@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css" type="text/css">
+<title>Home</title>
+</head>
+<body style=" margin:0;">
+<div class="navbar" id="myTopnav">
+	<a class="active"><i class="fa fa-home"></i> Home</a>
+	<a href="introduction.html"><i class="fa fa-book"></i> Introduction</a>
+	<a href="type.html"><i class="fa fa-tasks"></i> Types</a>  
+	<a href="protection_and_security.html"><i class="fa fa-bug"></i> Awareness</a>
+	<a href="Scope.html"><i class="fa fa-university"></i> Scope</a>
+	<a href="CTF_page.html"><i class="fa fa-code"></i> CTF</a>
+	<a href="Days_to_be_noted.html"><i class="fa fa-calendar"></i> Important Dates</a> 
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()" style="width:10%;"><i class="fa fa-bars"></i></a> 
+</div>
+
+<div class="column left">
+	<img src="download.png" alt="Hacker" style="width:30%;height:30%;float:left;margin:25px 20px 0px 70px;animation:example 1s">
+	<h1>KEVIN <span style="color:black;text-shadow: 4px 4px 3px #FFFFFF;">DE</span></h1><h1> HACKING</h1>
+	<h2> - Hackers are intelligent people who keep computer criminals on the run.</h2>
+</div>
+
+<div class="column right">
+	<div class="right1">
+		<img src="team.jpg" alt="Hacking Team" style="width:50%;height:80%;float:left;margin:25px 20px 0px 10px;">
+		<h1>AN INSIGHT INTO HACKING</h1>
+		<p>Get into the world of hacking with some basic concepts related to hacking provided in the introduction and types section</p>
+		<br>
+	</div>
+	
+	<div class="right2">
+		<img src="ctf.png" alt="CTF" style="width:50%;height:80%;float:right;margin:10px 20px 0px 10px;">
+		<h1>HACKING OPPURTUNITIES</h1>
+		<p>Learn about the hacking oppurtunities and know more about CTF - Capture the Flag</p>
+		<br><br>
+	</div>
+	
+	<div class="right3">
+		<img src="security.jpg" alt="Security" style="width:40%;height:70%;float:left;margin:50px 20px 0px 10px;">
+		<h1>PROTECTION AND SECURITY</h1>
+		<p>Protect your data and devices by learning about the various precautions to be taken</p>
+		<br>
+	</div>
+	
+	<div class="right4">
+		<img src="calendar.png" alt="Calendar" style="width:50%;height:90%;float:right;margin:10px 20px 0px 10px;">
+		<h1>IMPORTANT DATES IN HISTORY</h1>
+		<p>Take some time out to learn about the wonderful hacking achievements and threats</p>
+	</div>
+</div>
+
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "navbar") {
+			x.className += " responsive";
+		} else {
+		x.className = "navbar";
+		}
+	}
+</script>
+</body>
+</html> 
